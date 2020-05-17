@@ -1,0 +1,9 @@
+.p-about-list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+
+    > * + * {
+        width: calc(50% - 2rem);
+    }
+}

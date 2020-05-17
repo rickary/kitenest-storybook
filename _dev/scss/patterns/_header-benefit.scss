@@ -1,0 +1,14 @@
+.p-header-benefit {
+    align-items: center;
+    color: var(--color-muted);
+    display: flex;
+    flex-grow: 0;
+    font-size: var(--font-size);
+    font-weight: 500;
+    padding-left: 25px;
+    padding-right: 25px;
+
+    svg {
+        margin-right: 1rem;
+    }
+}

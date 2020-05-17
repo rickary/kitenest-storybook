@@ -1,0 +1,59 @@
+//------------------------------------//
+//  Media Query
+//------------------------------------//
+
+@mixin mq($point, $query1: min, $query2: width) {
+    @if $query1 == max {
+        @media screen and (#{$query1}-#{$query2}: $point - 1px) {
+            @content;
+        }
+    } @else {
+        @media screen and (#{$query1}-#{$query2}: $point) {
+            @content;
+        }
+    }
+}
+
+//------------------------------------//
+//  Font Size
+//------------------------------------//
+
+@mixin font($size) {
+    @if $size == xxl {
+        font-family: var(--typography--xxl-font-family);
+        font-size: var(--typography--xxl-font-size);
+        font-weight: var(--typography--xxl-font-weight);
+        line-height: var(--typography--xxl-line-height);
+        text-transform: var(--typography--xxl-text-transform);
+    } @else if $size == xl {
+        font-family: var(--typography--xl-font-family);
+        font-size: var(--typography--xl-font-size);
+        font-weight: var(--typography--xl-font-weight);
+        line-height: var(--typography--xl-line-height);
+        text-transform: var(--typography--xl-text-transform);
+    } @else if $size == l {
+        font-family: var(--typography--l-font-family);
+        font-size: var(--typography--l-font-size);
+        font-weight: var(--typography--l-font-weight);
+        line-height: var(--typography--l-line-height);
+        text-transform: var(--typography--l-text-transform);
+    } @else if $size == m {
+        font-family: var(--typography--m-font-family);
+        font-size: var(--typography--m-font-size);
+        font-weight: var(--typography--m-font-weight);
+        line-height: var(--typography--m-line-height);
+        text-transform: var(--typography--m-text-transform);
+    } @else if $size == s {
+        font-family: var(--typography--s-font-family);
+        font-size: var(--typography--s-font-size);
+        font-weight: var(--typography--s-font-weight);
+        line-height: var(--typography--s-line-height);
+        text-transform: var(--typography--s-text-transform);
+    } @else if $size == xs {
+        font-family: var(--typography--xs-font-family);
+        font-size: var(--typography--xs-font-size);
+        font-weight: var(--typography--xs-font-weight);
+        line-height: var(--typography--xs-line-height);
+        text-transform: var(--typography--xs-text-transform);
+    }
+}

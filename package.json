@@ -1,0 +1,35 @@
+{
+    "name": "kitenest-storybook",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "storybook": "start-storybook -s ./public -p 6006",
+        "build-storybook": "build-storybook"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "gulp": "^4.0.2",
+        "gulp-autoprefixer": "^7.0.1",
+        "gulp-notify": "^3.2.0",
+        "gulp-postcss": "^8.0.0",
+        "gulp-sass": "^4.0.2",
+        "gulp-strip-css-comments": "^2.0.0",
+        "postcss-custom-properties": "^9.0.2"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.9.6",
+        "@mdx-js/loader": "^1.6.1",
+        "@storybook/html": "^5.3.18",
+        "babel-loader": "^8.1.0"
+    },
+    "browserslist": [
+        "last 2 versions"
+    ],
+    "files": [
+        "public/css"
+    ]
+}

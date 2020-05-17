@@ -1,0 +1,15 @@
+.l-section {
+    border-bottom: solid 1px var(--color-border);
+    padding-bottom: 90px;
+    padding-top: 90px;
+}
+
+.l-section--large {
+    padding-bottom: 250px;
+    padding-top: 250px;
+}
+
+.l-section--flush {
+    padding-bottom: 0;
+    padding-top: 0;
+}

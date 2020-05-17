@@ -1,0 +1,37 @@
+.p-newsletter {
+    background-image: url("https://source.unsplash.com/400x1000/?nature");
+    background-size: 10%;
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+
+.p-newsletter__inner {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.p-newsletter__body {
+}
+
+.p-newsletter__title {
+    color: #000;
+    font-family: var(--heading-font-family);
+    font-size: var(--heading-font-size--xl);
+}
+
+.p-newsletter__subtitle {
+    color: var(--color-muted);
+    font-family: var(--heading-font-family);
+    font-size: var(--heading-font-size--xl);
+}
+
+.p-newsletter__actions {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+    > * + * {
+        margin-left: 5rem;
+    }
+}

@@ -1,0 +1,11 @@
+.p-header-cart {
+    border-left: solid 1px var(--color-border);
+    cursor: pointer;
+    height: 70px;
+    padding-left: 25px;
+    padding-right: 25px;
+
+    svg {
+        fill: var(--color-primary);
+    }
+}

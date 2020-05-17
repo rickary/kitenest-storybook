@@ -1,0 +1,16 @@
+.p-product-card {
+}
+
+.p-product-card__meta {
+    > * + * {
+        margin-left: 1rem;
+    }
+}
+
+.p-product-card__price {
+    font-weight: var(--font-weight--bold);
+}
+
+.p-product-card__qty {
+    font-weight: var(--font-weight--light);
+}

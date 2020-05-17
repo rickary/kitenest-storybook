@@ -1,0 +1,30 @@
+.p-header-nav {
+    align-items: center;
+    border-left: solid 1px var(--color-border);
+    border-right: solid 1px var(--color-border);
+    display: flex;
+    font-size: var(--font-size);
+    justify-content: space-between;
+    line-height: 1;
+    margin-left: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.p-header-nav__item {
+    + .p-header-nav__item {
+        margin-left: 75px;
+    }
+}
+
+.p-header-nav__link {
+    align-items: center;
+    display: flex;
+    font-weight: 500;
+    height: 70px;
+    line-height: 70px;
+
+    svg {
+        margin-left: 10px;
+    }
+}

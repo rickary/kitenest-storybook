@@ -1,0 +1,24 @@
+.p-section-header {
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 90px;
+}
+
+.p-section-header__body {
+}
+
+.p-section-header__cta {
+}
+
+.p-section-header__title {
+    font-family: var(--heading-font-family);
+    font-size: var(--heading-font-size--xl);
+}
+
+.p-section-header__intro {
+    color: var(--color-muted);
+    font-size: var(--font-size);
+    margin-top: 2rem;
+    max-width: 45ch;
+}

@@ -1,0 +1,42 @@
+.p-footer-main {
+    a {
+        color: var(--color-primary);
+    }
+}
+
+.p-footer-main__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.p-footer-main__body {
+    display: flex;
+    font-size: var(--font-size--s);
+
+    > * + * {
+        margin-left: 9rem;
+    }
+}
+
+.p-footer-main__title {
+    font-weight: var(--font-weight--bold);
+    margin-bottom: 2.5rem;
+    text-transform: uppercase;
+}
+
+.p-footer-main__contact {
+    margin-bottom: 2rem;
+
+    a {
+        display: block;
+    }
+}
+
+.p-footer-main__address {
+    strong {
+        font-weight: var(--font-weight--bold);
+    }
+}
+
+.p-footer-main__logos {
+}

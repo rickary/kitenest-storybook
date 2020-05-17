@@ -1,0 +1,28 @@
+.p-footer-credits {
+    background-color: #f9f9f9;
+    font-size: var(--font-size--s);
+}
+
+.p-footer-credits__inner {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.p-footer-credits__copy {
+    color: var(--color-muted);
+}
+
+.p-footer-credits__benefit {
+    align-items: center;
+    border-left: solid 1px var(--color-border);
+    border-right: solid 1px var(--color-border);
+    display: flex;
+    height: 75px;
+    line-height: 75px;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    svg {
+        margin-left: 1rem;
+    }
+}
