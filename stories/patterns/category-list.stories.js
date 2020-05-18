@@ -9,13 +9,9 @@ const CategoryCard = (title) =>
     title +
     '</h3><a href="" class="c-button c-card__button">Shop all</a></div><img src="https://source.unsplash.com/600x400?products" class="c-card__image" /></li>';
 
-export const CategoryList = () =>
+export const CategoryList = (title, intro, button) =>
     '<section class="l-section"><div class="l-container">' +
-    TitleIntroButton(
-        "Browse by top categories",
-        "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec ullamcorper nulla non metus auctor fringilla. Aenean eu leo quam.",
-        "All Categories"
-    ) +
+    TitleIntroButton(title, intro, button) +
     '<ul class="p-category-list">' +
     CategoryCard("Bath and shower") +
     CategoryCard("Face") +

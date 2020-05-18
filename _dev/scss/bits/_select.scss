@@ -1,0 +1,25 @@
+.c-select {
+    appearance: none;
+    background-color: white;
+    background-image: url("data:image/svg+xml;base64,CjxzdmcgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0OCA0OCIgZmlsbD0iIzc3Nzc3NyI+CjxwYXRoIGQ9Ik0xMy45NjkgMTkuOTY5aDIwLjA2M2wtMTAuMDMxIDEwLjAzMXoiPjwvcGF0aD4KPC9zdmc+Cg==");
+    background-position: right 10px center;
+    background-repeat: no-repeat;
+    background-size: 24px;
+    border-color: var(--color-muted);
+    border-radius: var(--border-radius);
+    border-style: var(--border-style);
+    border-width: var(--border-width);
+    color: var(--color-muted);
+    cursor: pointer;
+    display: inline-block;
+    font-family: var(--font-family);
+    font-size: var(--font-size--s);
+    font-weight: var(--font-weight);
+    line-height: 34px;
+    padding-bottom: 0;
+    padding-left: 1rem;
+    padding-right: 2rem;
+    padding-top: 0;
+    vertical-align: middle;
+    white-space: nowrap;
+}
