@@ -577,6 +577,13 @@ serif;
   font-size: 20px;
   text-align: center; }
 
+.p-blog-list {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 3rem; }
+
 .p-category-list {
   display: -ms-grid;
   display: grid;
@@ -986,6 +993,10 @@ serif;
   border-bottom: solid 1px var(--color-border);
   padding-bottom: 90px;
   padding-top: 90px; }
+
+.l-section--no-border {
+  border-bottom: 0;
+  padding-bottom: 0; }
 
 .l-section--large {
   padding-bottom: 250px;

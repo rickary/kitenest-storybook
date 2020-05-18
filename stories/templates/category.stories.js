@@ -14,7 +14,7 @@ export default {
 export const CategoryPage = () =>
     Header() +
     '<div class="l-page">' +
-    PageHeader() +
+    PageHeader("Category Name") +
     BigProductList("Shop 100% Natural Products", "optional intro about amazing products & offers", "sort") +
     Statements() +
     FeatureNoButton("More Category Detail") +
