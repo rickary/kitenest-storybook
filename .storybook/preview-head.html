@@ -1,2 +1,14 @@
-<link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto:ital,wght@0,400;0,700;1,400;0,500&display=swap" rel="stylesheet" />
-<link href="css/master.css" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Roboto:ital,wght@0,400;0,700;1,400;0,500&display=swap" rel="stylesheet"/>
+<link href="css/master.css" rel="stylesheet"/>
+
+<script>
+    // Nav Trigger
+    var navTrigger = document.querySelector(".js-triggerNav");
+    navTrigger.addEventListener("click", function (e) {
+        e.preventDefault(),
+        document
+            .body
+            .classList
+            .toggle("nav-active")
+    });
+</script>

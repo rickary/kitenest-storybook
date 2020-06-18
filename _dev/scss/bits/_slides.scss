@@ -1,0 +1,45 @@
+.c-slide-container {
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+
+.c-slides__slide {
+    display: none;
+}
+
+.c-slides__slide.c-slides__slide--active {
+    display: inline-block;
+}
+
+.c-slides__prev,
+.c-slides__next {
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 0;
+    cursor: pointer;
+    display: flex;
+    height: 38px;
+    justify-content: center;
+    margin-top: -19px;
+    position: absolute;
+    top: 50%;
+    transition: all 0.1s ease-in-out;
+    width: 30px;
+
+    &:hover,
+    &:focus {
+        background-color: white;
+        svg path {
+            stroke: var(--color-primary);
+        }
+    }
+}
+
+.c-slides__prev {
+    left: 0;
+}
+
+.c-slides__next {
+    right: 0;
+}

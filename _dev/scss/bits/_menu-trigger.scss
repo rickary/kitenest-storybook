@@ -121,9 +121,3 @@ $sass-burger-add-vendor-prefixes: true !default;
         transform: translateY(-($burger-gutter + $burger-height)) rotate(-45deg);
     }
 }
-
-.c-menu-trigger {
-    span {
-        @include burger();
-    }
-}

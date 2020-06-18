@@ -12,7 +12,7 @@ const CategoryCard = (title) =>
 export const CategoryList = (title, intro, button) =>
     '<section class="l-section"><div class="l-container">' +
     TitleIntroButton(title, intro, button) +
-    '<ul class="p-category-list">' +
+    '<ul class="l-grid--thirds p-category-list">' +
     CategoryCard("Bath and shower") +
     CategoryCard("Face") +
     CategoryCard("Body") +

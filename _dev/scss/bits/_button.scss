@@ -5,10 +5,10 @@
 .c-button {
     --button-background-color: var(--color-primary);
 
-    --button-border-color: var(--color-border);
+    --button-border-color: var(--color-primary);
     --button-border-radius: 17px;
-    --button-border-style: none;
-    --button-border-width: 0;
+    --button-border-style: solid;
+    --button-border-width: 2px;
 
     --button-color: white;
 
@@ -16,7 +16,7 @@
     --button-font-size: 1.5rem;
     --button-font-weight: var(--font-weight--bold);
     --button-letter-spacing: 0;
-    --button-line-height: 34px;
+    --button-line-height: 30px;
     --button-text-transform: none;
 
     --button-padding-bottom: 0;
@@ -30,7 +30,7 @@
     --button-transition-timing-function: var(--transition-timing-function);
 
     //  Hover
-    --button-background-color--hover: var(--button-color);
+    --button-background-color--hover: transparent;
     --button-border-color--hover: var(--button-background-color);
     --button-border-style--hover: var(--button-border-style);
     --button-border-width--hover: var(--button-border-width);
@@ -114,7 +114,7 @@
 
 .c-button--large {
     --button-border-radius: 24px;
-    --button-line-height: 48px;
+    --button-line-height: 44px;
     --button-padding-left: 5rem;
     --button-padding-right: 5rem;
     --button-text-transform: uppercase;
@@ -130,13 +130,12 @@
 //------------------------------------//
 
 .c-button--border {
-    --button-background-color: none;
-    --button-border-color: var(--color-primary);
-    --button-border-style: solid;
-    --button-border-width: 2px;
+    --button-background-color: transparent;
     --button-color: var(--color-primary);
     --button-font-weight: normal;
 
+    --button-color--hover: white;
+    --button-background-color--hover: var(--color-primary);
     --button-border-color--hover: var(--button-border-color);
     --button-border-style--hover: var(--button-border-style);
     --button-border-width--hover: var(--button-border-width);

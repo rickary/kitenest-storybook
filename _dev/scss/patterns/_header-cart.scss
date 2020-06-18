@@ -1,11 +1,44 @@
 .p-header-cart {
+    align-items: center;
     border-left: solid 1px var(--color-border);
     cursor: pointer;
+    display: flex;
     height: 70px;
-    padding-left: 25px;
-    padding-right: 25px;
+    justify-content: center;
+    position: relative;
+    width: 70px;
 
     svg {
         fill: var(--color-primary);
     }
+
+    @include mq(600px, max) {
+        margin-left: auto;
+    }
+
+    @include mq($bp--small, max) {
+        height: 50px;
+        width: 50px;
+
+        svg {
+            height: auto;
+            width: 18px;
+        }
+    }
+}
+
+.p-header-cart__qty {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: var(--color-primary);
+    text-align: center;
+    min-width: 18px;
+    padding: 0 2px;
+    height: 18px;
+    font-weight: var(--font-weight--bold);
+    color: white;
+    font-size: 8px;
+    border-radius: 100%;
+    line-height: 18px;
 }

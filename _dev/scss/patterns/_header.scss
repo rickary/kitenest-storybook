@@ -6,8 +6,18 @@
     height: 70px;
     justify-content: space-between;
     left: 0;
-    padding-left: 50px;
+    padding-left: 2rem;
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 2;
+
+    @include mq($bp--large) {
+        padding-left: 50px;
+    }
+
+    @include mq($bp--small, max) {
+        height: 50px;
+        padding-left: 1rem;
+    }
 }

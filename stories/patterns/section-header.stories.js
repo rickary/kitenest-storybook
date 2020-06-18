@@ -27,4 +27,4 @@ export const TitleIntroSort = (title, description) =>
     title +
     '</h2><div class="p-section-header__intro"><p>' +
     description +
-    '</p></div></div><div class="p-section-header__cta"><select class="c-select"><option selected disabled>Sort by</option><option>Price: Low to High</option><option>Price: High to Low</option><option>A-Z</option></select></div></div>';
+    '</p></div></div><div class="p-section-header__cta"><select class="c-input c-input--select"><option selected disabled>Sort by</option><option>Price: Low to High</option><option>Price: High to Low</option><option>A-Z</option></select></div></div>';

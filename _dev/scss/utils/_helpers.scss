@@ -24,9 +24,12 @@
 }
 
 .u-blank-button {
+    align-items: center;
     appearance: none;
     background: none;
     border: 0px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .u-no-link {

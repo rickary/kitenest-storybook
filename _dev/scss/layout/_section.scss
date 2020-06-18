@@ -2,6 +2,16 @@
     border-bottom: solid 1px var(--color-border);
     padding-bottom: 90px;
     padding-top: 90px;
+
+    @include mq($bp--medium, max) {
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+
+    @include mq($bp--small, max) {
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
 }
 
 .l-section--no-border {
@@ -10,8 +20,18 @@
 }
 
 .l-section--large {
-    padding-bottom: 250px;
-    padding-top: 250px;
+    padding-bottom: 200px;
+    padding-top: 200px;
+
+    @include mq($bp--medium, max) {
+        padding-bottom: 150px;
+        padding-top: 150px;
+    }
+
+    @include mq($bp--small, max) {
+        padding-bottom: 90px;
+        padding-top: 90px;
+    }
 }
 
 .l-section--flush {

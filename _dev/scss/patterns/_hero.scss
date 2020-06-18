@@ -1,22 +1,19 @@
 .p-hero {
-    background-image: url("https://source.unsplash.com/collection/9479225/1000x1300");
-    background-size: 50%;
-    background-position: right center;
-    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
 }
 
 .p-hero__inner {
 }
 
 .p-hero__title {
-    color: #000000;
     font-family: var(--heading-font-family);
-    font-size: var(--heading-font-size--xxl);
-    line-height: var(--heading-line-height--xxl);
+    font-size: 6.2rem;
+    line-height: 1.1;
+    max-width: 450px;
 }
 
 .p-hero__intro {
-    color: #555555;
     font-size: var(--font-size);
     margin-top: 3rem;
     max-width: 40ch;

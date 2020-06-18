@@ -2,9 +2,18 @@
 
 @import "blockquote";
 
+@import "blog-article";
 @import "blog-list";
 
+@import "bundle-product";
+
+@import "cart";
+
 @import "category-list";
+
+@import "contact";
+
+@import "faq";
 
 @import "feature";
 
@@ -23,7 +32,10 @@
 
 @import "newsletter";
 
+@import "page";
 @import "product-card";
+@import "product-detail";
+@import "product-header";
 @import "product-list";
 
 @import "section-header";

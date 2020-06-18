@@ -7,6 +7,14 @@
 .p-footer-main__inner {
     display: flex;
     justify-content: space-between;
+
+    @include mq($bp--medium, max) {
+        flex-direction: column;
+
+        > * + * {
+            margin-top: 2rem;
+        }
+    }
 }
 
 .p-footer-main__body {
@@ -15,6 +23,23 @@
 
     > * + * {
         margin-left: 9rem;
+    }
+
+    @include mq($bp--medium, max) {
+        justify-content: space-between;
+
+        > * + * {
+            margin-left: 2rem;
+        }
+    }
+
+    @include mq($bp--small, max) {
+        flex-direction: column;
+
+        > * + * {
+            margin-left: 0;
+            margin-top: 2rem;
+        }
     }
 }
 
@@ -29,6 +54,11 @@
 
     a {
         display: block;
+
+        &:focus,
+        &:hover {
+            text-decoration: underline;
+        }
     }
 }
 
@@ -39,4 +69,13 @@
 }
 
 .p-footer-main__logos {
+}
+
+.p-footer-main__nav {
+    a {
+        &:focus,
+        &:hover {
+            text-decoration: underline;
+        }
+    }
 }

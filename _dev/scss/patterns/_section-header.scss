@@ -25,4 +25,13 @@
     font-size: var(--font-size);
     margin-top: 2rem;
     max-width: 45ch;
+
+    a {
+        text-decoration: underline;
+
+        &:focus,
+        &:hover {
+            text-decoration: none;
+        }
+    }
 }

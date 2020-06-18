@@ -1,6 +1,5 @@
 .p-header-benefit {
     align-items: center;
-    color: var(--color-muted);
     display: flex;
     flex-grow: 0;
     font-size: var(--font-size);
@@ -10,5 +9,13 @@
 
     svg {
         margin-right: 1rem;
+    }
+
+    @include mq($bp--nav, max) {
+        margin-left: auto;
+    }
+
+    @include mq(600px, max) {
+        display: none;
     }
 }

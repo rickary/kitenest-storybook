@@ -1,0 +1,67 @@
+input,
+select,
+textarea {
+    appearance: none;
+    background-color: white;
+    border-color: var(--color-text);
+    border-radius: var(--border-radius);
+    border-style: var(--border-style);
+    border-width: var(--border-width);
+    color: black;
+    font-family: var(--font-family);
+    font-size: var(--font-size--s);
+    font-weight: var(--font-weight);
+    vertical-align: middle;
+    white-space: nowrap;
+
+    &::placeholder {
+        color: var(--color-muted);
+    }
+}
+
+.c-label {
+    display: block;
+    font-family: var(--font-family);
+    font-size: var(--font-size--s);
+    font-weight: var(--font-weight);
+}
+
+.c-input {
+}
+
+.c-input--text {
+    height: 50px;
+    line-height: 50px;
+    padding: 0 2.5rem;
+    width: 100%;
+}
+
+.c-input--textarea {
+    height: 150px;
+    padding: 1rem 2.5rem;
+    width: 100%;
+}
+
+.c-input--select {
+    background-image: url("data:image/svg+xml;base64,CjxzdmcgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0OCA0OCIgZmlsbD0iIzc3Nzc3NyI+CjxwYXRoIGQ9Ik0xMy45NjkgMTkuOTY5aDIwLjA2M2wtMTAuMDMxIDEwLjAzMXoiPjwvcGF0aD4KPC9zdmc+Cg==");
+    background-position: right 10px center;
+    background-repeat: no-repeat;
+    background-size: 24px;
+    cursor: pointer;
+    height: 50px;
+    line-height: 50px;
+    padding-bottom: 0;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    padding-top: 0;
+    width: 100%;
+}
+
+.c-input--checkbox {
+}
+
+.c-form-field {
+    + .c-form-field {
+        margin-top: 2rem;
+    }
+}
